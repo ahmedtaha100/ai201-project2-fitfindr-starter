@@ -1,0 +1,23 @@
+# API keys — never commit these
+.env
+
+# Local trust anchor + personal infra (never leak into the public fork)
+.Brain-trust
+.brain-trust
+
+# CodePath course materials (read-only reference; keep out of the public fork)
+Codepath/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
